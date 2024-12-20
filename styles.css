@@ -1,0 +1,23 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-size: 16px; /* definimos el tamaño de REMS */
+}
+
+#fondo {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed; /*para que shante pueda posicionarse */
+}
+
+#shante {
+  width: 9.5 rem;
+  position: absolute; /*absolute posicionamiento respecto al padre (en este caso el div), fixed se utiliza respecto a la pantalla, relative se utiliza en función a su posición incicial, static no se mueve */
+  top: 0 rem;
+  left: 0 rem;
+}
